@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="FeedME.css" rel="stylesheet">
+
+    <title>FeedME</title>
+
+</head>
+<body>
+<div class="title-page"> <h1 id="font1" >FeedME </h1></div>
+<input type="button" value="Home">
+<p></p>
+
+<div class="form">
+<form action ="editfood.php" method="post">
+   	<fieldset>
+   		<legend>Enter New Food Details.</legend>
+
+   	    <div><label width="200"><h4>FOOD ID</h4></label>
+        <input type="text" name="FoodID" value="" placeholder="Enter the Food ID" size="25" maxlength="50" REQUIRED/><div>
+		
+   		<div><label width="200"><h4>FOOD NAME</h4></label>
+		<input type="type" name="FoodName" value="" placeholder="Enter new food name" size="25" maxlength="50" REQUIRED/></div>
+		
+   		<div><label width="200"><h4>FOOD DESCRIPTION</h4>
+		<input type="text" name="FoodDescription" value="" placeholder="Enter new description" size="25" maxlength="50" REQUIRED/></div>
+		
+   		<div><label width="200" ><h4>FOOD TYPE</h4></label>
+		<input type="text" name="FoodType" value="" placeholder="Enter new food type" size="25" maxlength="50" REQUIRED/></div>
+		
+   		<div><label width="200"> <h4>QUANTITY</h4>
+		<input type="text" name="Quantity" value="" placeholder="Enter new quantity" size="25" maxlength="50" REQUIRED/></div>
+
+    <div><label width="200"><h4>LIKES</h4></label>
+        <input type="text" name="Likes" value="" placeholder="Enter new likes" size="25" maxlength="50" REQUIRED/><div>
+
+   <div><label width="200"><h4>SHARER</h4></label>
+        <input type="text" name="SharerID" value="" placeholder="Enter new sharere ID" size="25" maxlength="50" REQUIRED/><div>
+
+    <div><label width="200"><h4>RELEASE DATE</h4></label>
+        <input type="datetime-local" name="ReleaseDate" value="" placeholder="Enter new release date" size="25" maxlength="50" REQUIRED/><div>
+
+     <div><label width="200"><h4>LOCATION X</h4></label>
+        <input type="text" name="LocationX" value="" placeholder="Enter new location" size="25" maxlength="50" REQUIRED/><div>
+		
+    <div><label width="200"><h4>LOCATION Y</h4></label>
+        <input type="text" name="LocationY" value="" placeholder="Enter new location" size="25" maxlength="50" REQUIRED/><div>
+		
+     <div><button>"UPDATE" </button>
+		
+   		
+   		
+   	</fieldset>
+   </form>	
+</div>
+
+</body>
+</html>

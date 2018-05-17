@@ -1,0 +1,162 @@
+body {
+    background:url(bg.jpeg)  no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+    background-color:#CCCCCC;
+    font-family : Georgia;
+}
+
+.talk_show{
+    height:180px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid #000000;
+    opacity:0.95;
+    background: #ffffff;
+    overflow: auto;
+}
+.talk_con{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:1px solid #000000;
+    background:#43a047;
+    opacity:0.95;
+}
+.talk_input{
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.talk_word{
+
+
+    opacity:0.95;
+    background: #ffffff;
+}
+
+.talk_sub{
+    background:#43a047;
+}
+
+.notice_con{
+    padding-top: 30px;
+    background:#ffffff;
+    opacity:0.95;
+}
+
+.notice_but{
+    align:right;
+
+}
+
+.btn {
+    color: green;
+    background-color: #FFFFFF;
+    border: 0px none;
+    font-family: Georgia;
+    font-size: 18pt;
+
+}
+.btn:hover{
+    color: greenyellow;
+    border: none;
+    cursor: hand;
+    cursor: pointer;
+
+}
+.btn:focus {
+    outline: none;
+}
+
+.text{
+    height:25px;
+    width: 135px;
+    padding: 2px 10px 2px 2px;
+    border-radius: 5px;
+
+}
+.title-page{
+    width: 100%;
+    padding: 0.5% 0% 0.5% 1%;
+    margin: auto;
+    opacity:0.95;
+    filter:alpha(opacity=95);
+    background-size: 100% 100%;
+    background-color: #43A047;
+
+}
+#font1{
+    color:white;
+    text-align: left;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 250%;
+
+
+}
+
+.con2{
+    width: 70%;
+    padding: 0.5% 0% 0.5% 1%;
+    margin:0 10px 10px;
+}
+
+.form2 {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 55%;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#myTable {
+    border-collapse: collapse;
+    /* Collapse borders */
+    width: auto;
+    /* Full-width */
+    align-content: center;
+    /* Add a grey border */
+    font-size: 18px;
+    /* Increase font-size */
+
+}
+#myTable th, #myTable td {
+
+    /* Left-align text */
+    padding: 12px 12px 12px  12px;
+    /* Add padding */
+}
+
+#myTable tr.header, #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f1f1f1;
+}
+
+
+.button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+    text-decoration: none;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
